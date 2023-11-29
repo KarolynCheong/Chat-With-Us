@@ -123,8 +123,8 @@ button:hover {
   margin: 5px auto;
   border: transparent;
   border-radius: 10px;
-  width: 5vw; 
-  height: 80vh;
+  width: 30%; 
+  height: 90%;
 }
 
 h2 {
@@ -265,7 +265,7 @@ color: #696969
 
   h1 {
     font-size: 30px; 
-    margin-top: 80%; 
+    margin-top: 10%; 
   }
 
   h2 {
