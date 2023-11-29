@@ -270,6 +270,13 @@ color: #696969
     font-size: 45px; 
     margin-top: 150px; 
   }
+  
+  .mainpage-image {
+    display: block;
+    max-width: 60%;
+    height: auto;
+    margin: 20px auto;
+}
 
   h2 {
     font-size: 20px; 
