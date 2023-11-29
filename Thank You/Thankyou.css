@@ -148,8 +148,71 @@ p {
 
   @media (max-width: 480px) {
     #bookingDetails {
-      padding: 10px; 
+      padding: 10px;
+      width: 300px;
+      height:600px;
+      font-size: 13px;
     }
+      h2 {
+    font-size: 14px;
+    margin-top: 65px;
+    margin-bottom: -2%;
+    font-family: "Poppins", sans-serif;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.name {
+    color: antiquewhite;
+    margin-right: 5px;
+    font-size: 13px;
+    font-weight: lighter;
+  }
+  
+.email {
+    color: antiquewhite;
+    margin-right: 5px;
+    margin-top: -3%;
+    font-size: 13px;
+    font-weight: lighter;
+  }
+  
+.position {
+    color: antiquewhite;
+    margin-right: 5px;
+    margin-top: -3%;
+    font-size: 13px;
+    font-weight: lighter;
+  }
+  
+.interviewType {
+    color: antiquewhite;
+    margin-right: 5px;
+    margin-top: 8%;
+    font-size: 13px;
+    font-weight: lighter;
+  }
+  
+.interviewDate {
+    color: antiquewhite;
+    margin-right: 5px;
+    margin-top: -3%;
+    font-size: 13px;
+    font-weight: lighter;
+  }
+  
+.selectedTime {
+    color: antiquewhite;
+    margin-right: 5px;
+    margin-top: -3%;
+    font-size: 13px;
+    font-weight: lighter;
+  }
+      
   }
 
 
