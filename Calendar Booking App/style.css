@@ -260,7 +260,7 @@ color: #696969
 
 @media (max-width: 1024px) {
   .modal-content {
-    width: 50%; 
+    width: 400px; 
   }
 }
 
@@ -277,7 +277,7 @@ color: #696969
   }
 
   .modal-content {
-    width: 60%; 
+    width: 400px; 
   }
 
   p {
