@@ -286,4 +286,7 @@ color: #696969
   .icons {
     display: none; 
   }
+  .login-image {
+    margin: 1% auto; 
+}
 }
