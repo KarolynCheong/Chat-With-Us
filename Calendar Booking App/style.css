@@ -249,7 +249,7 @@ color: #696969
   }
   h1 {
     font-size: 20px; 
-    margin-top: 30%; 
+    margin-top: 150px; 
   }
 
   h2 {
@@ -267,8 +267,8 @@ color: #696969
 @media (max-width: 768px) {
 
   h1 {
-    font-size: 30px; 
-    margin-top: 15%; 
+    font-size: 45px; 
+    margin-top: 150px; 
   }
 
   h2 {
@@ -281,7 +281,9 @@ color: #696969
   }
 
   p {
-    font-size: 0.9rem; 
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 0.5rem; 
   }
 
   .icons {
