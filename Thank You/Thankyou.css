@@ -148,8 +148,6 @@ p {
 
   @media (max-width: 480px) {
     #bookingDetails {
-      width: 20%; 
-      margin: 3px auto; 
       padding: 10px; 
     }
   }
