@@ -1,0 +1,200 @@
+body {
+    background-color: maroon;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar a {
+    margin: 0px;
+    padding: 20px 5%;
+    top: 2%;
+    position: fixed;
+}
+
+.navbar img{
+    width: 170px;
+}
+
+.Home{
+    display: flex;
+}
+
+.Home a {
+    font-size: 16px;
+    font-weight: 400;
+    position: fixed;
+    top: 20px;
+    right: 50px;
+    margin: 30px;
+    background: transparent;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.Home a:hover{
+    border-bottom: 1px solid antiquewhite;
+}
+
+.icons{
+    position: fixed;
+    top: 50%;
+    margin-left: 70px;
+    padding: 0.9%;
+    transform: translateY(-50%);
+}
+
+.icons a {
+    color: antiquewhite;
+    display: block;
+    font-size: 20px;
+    margin: 50px;
+    
+}
+
+.icons a:hover {
+    color: antiquewhite;
+    transform:translateY(-5px);
+    transition: all .50s ease;
+    
+}
+
+form {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+label{
+    display: block;
+    color: antiquewhite;
+    margin-top: 40px;
+    cursor: default;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+input[type="datetime-local"] {
+    border: 0px solid antiquewhite;
+    border-bottom-width: 1px;
+    background-color: transparent;
+    width: 50%;
+    height: 32px;
+    color: antiquewhite;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+input[type="datetime-local" i] {
+    font-family: monospace;
+    padding-inline-start: 1px;
+    cursor: default;
+    align-items: center;
+    display: inline-flex;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.btn-medium {
+    font-size: 14px;
+    width: 85px;
+    padding: 7px;
+    margin-top: 45px;
+    display: block;
+    cursor: pointer;
+    outline: none;
+    background: #a0522d;
+    border: 1px;
+    border-radius: 15px;
+    border-left: 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    margin-left: 0%;
+    transition: all .55s ease;
+}
+
+.btn-medium:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    transform: translatex8px;
+}
+
+.container {
+    display: block;
+  }
+  
+.form-box {
+    border: 1px solid antiquewhite;
+    padding: 20px;
+    border-radius: 5px;
+    width: 600px; 
+    height: 400px;
+    margin: 200px auto;
+  }
+
+#outputName{
+    color: antiquewhite;
+    display: block;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+#outputEmail{
+    color: antiquewhite;
+    display: block;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+label[for="interviewtype"] {
+    font-size: 14px;
+    margin-top: 30px;
+    color: antiquewhite;
+    background-color: tr;
+  }
+
+label[for="interviewdate"] {
+    font-size: 14px;
+    color: antiquewhite;
+}
+
+select#interviewtype {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid antiquewhite;
+    background: transparent;
+    color: antiquewhite;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+
+input[type="datetime-local"] {
+    padding: 8px;
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
+    color: antiquewhite;
+    font-size: 14px;
+    width: 100%; 
+    box-sizing: border-box; 
+  }
+
+
+
+    
+  
+
+

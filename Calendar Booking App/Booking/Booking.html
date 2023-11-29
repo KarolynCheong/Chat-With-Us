@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang =“en”>
+        <head>
+            <meta charset = “UTF-8”>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title> Login</title>
+            <link rel="stylesheet" type="text/css" href="stye.css">
+            <script src="script.js"></script>
+
+            <link rel="stylesheet" type="text/css" href="stye.css">
+            <link rel="stylesheet"
+            href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+            <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,800;1,600&display=swap" rel="stylesheet">
+    </head>
+
+    <section></section>
+        
+    <body>
+      <div class="navbar">
+        <a href="../index.html">
+            <img src="../images/logo.png"alt="logo">
+        </a>
+        </div> 
+
+        <div class="Home">
+        <a href="../index.html"> Home </a>
+        </div>  
+        
+        <div class="icons">
+          <a href ="https://www.smartnation.gov.sg/"><i class="ri-global-line"></i></a>
+          <a href ="https://www.linkedin.com/company/smartnationsg/"><i class="ri-linkedin-box-line"></i></a>
+          <a href ="https://www.instagram.com/smartnation.sg"><i class="ri-instagram-line"></i></a>
+      </div>
+      
+      <div class="form-box">
+        <form action="/create" method="post">
+            <div id="outputName"></div>
+            <div id="outputEmail"></div>
+            <label for="interviewtype">Interview Stage:</label>
+            <select name="interviewtype" id="interviewtype">
+                <option value="1st Interview">1st Interview</option>
+                <option value="2nd Interview">2nd Interview</option>
+                <option value="Final Interview">Final Interview</option>
+            </select>
+            <label for="interviewdate">Date:</label>
+            <input type="datetime-local" id="interviewdate" name="interviewdate" required value="${new Date().toISOString().slice(0, 16)}">
+            <br>
+            <button type="button" class="btn-medium" onclick="prepareAndRedirect()">Create</button>
+        </form>
+    </div>
+
+    <script src="booking.js"></script>
+    <script>
+        function prepareAndRedirect() {
+          const name = document.getElementById('outputName').innerText;
+          const email = document.getElementById('outputEmail').innerText;
+          const interviewType = document.getElementById('interviewtype').value;
+          const interviewDate = document.getElementById('interviewdate').value;
+      
+          localStorage.setItem('name', name);
+          localStorage.setItem('email', email);
+          localStorage.setItem('interviewType', interviewType);
+          localStorage.setItem('interviewDate', interviewDate);
+      
+          window.location.href='../Thank You/ThankYou.html';
+        }
+      </script>
+    </body>
+    
+    </html>

@@ -1,0 +1,107 @@
+body {
+    background-color: maroon;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar a {
+    margin: 0px;
+    padding: 20px 5%;
+    top: 2%;
+    position: fixed;
+}
+
+.navbar img{
+    width: 170px;
+}
+
+.Home{
+    display: flex;
+}
+
+.Home a {
+    font-size: 16px;
+    font-weight: 400;
+    position: fixed;
+    top: 20px;
+    right: 50px;
+    margin: 30px;
+    background: transparent;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.Home a:hover{
+    border-bottom: 1px solid antiquewhite;
+}
+
+.icons{
+    position: fixed;
+    top: 50%;
+    margin-left: 70px;
+    padding: 0.9%;
+    transform: translateY(-50%);
+}
+
+.icons a {
+    color: antiquewhite;
+    display: block;
+    font-size: 20px;
+    margin: 50px;
+    
+}
+
+.icons a:hover {
+    color: antiquewhite;
+    transform:translateY(-5px);
+    transition: all .50s ease;
+    
+}  
+#bookingDetails {
+      display: block;
+      border: 1px solid antiquewhite;
+      padding: 20px;
+      border-radius: 5px;
+      width: 600px; 
+      height: 700px;
+      margin: 200px auto;
+      font-family: "Poppins", sans-serif;
+      color: antiquewhite;
+      text-align: left;
+      display: block;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+h2 {
+    font-size: 18px;
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: underline;
+}
+
+.name {
+    margin-top: 5px;
+    font-weight: lighter;
+}
+
+.interview-type-label,
+.interview-date-label {
+    margin-right: 5px;
+    font-weight: lighter;
+}
+
+
+    
+  
+
+

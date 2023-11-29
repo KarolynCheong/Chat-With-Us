@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang =“en”>
+        <head>
+            <meta charset = “UTF-8”>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title> Chat With Us</title>
+
+            <link rel="stylesheet" type="text/css" href="stye.css">
+            <link rel="stylesheet"
+            href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+            <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,800;1,600&display=swap" rel="stylesheet">
+    </head>
+
+    <section></section>
+        
+    <body>
+        <div class="navbar">
+        <a href="index.html">
+            <img src="images/logo.png"alt="logo">
+        </a>
+        </div> 
+
+        <h1>Chat With Us</h1>
+        <p class="subtitle"> A self initiate scheduler</p>
+         <p>
+            Thank you for your application and congrats for being shortlisted for the next round.
+            <br>
+            We would love to meet you soon, do submit your details below to secure your slots.
+            <br>
+            Tips: Prevent making multiple changes and start booking now!
+         </p>
+        <div class="container">
+            <img src="images/mainpageimage.png"alt="mainpage">
+        </div>
+         
+        <button onclick="document.getElementById('id01').style.display='block'">Get Started</button>
+        
+        <div class="icons">
+            <a href ="https://www.smartnation.gov.sg/"><i class="ri-global-line"></i></a>
+            <a href ="https://www.linkedin.com/company/smartnationsg/"><i class="ri-linkedin-box-line"></i></a>
+            <a href ="https://www.instagram.com/smartnation.sg"><i class="ri-instagram-line"></i></a>
+        </div>
+
+        <div id="id01" class="modal">
+            <form class="modal-content animate">
+            <span onclick="document.getElementById('id01').style.display='none'"
+             class="close" title="Close Modal">&times;</span>
+            <h2>Welcome to chat with us</h2>
+    
+            <img src="images/Login page image.png"alt="Loginimage">
+    
+
+            <div class="Name">
+              <label for="name"><b>Name</b></label>
+            </div>
+
+            <input type="text" placeholder="Enter your name" name="name" required class="resize-input" id="nameInput">
+
+            <div class="Email">
+              <label for="email"><b>Email Address</b></label>
+            </div>
+            
+            <input type="email" placeholder="Enter your email" name="email" required class="resize-input" id="emailInput">
+
+             <div id="outputName" style="display: none;"></div>
+             <div id="outputEmail" style="display: none;"></div>
+
+             <button class="submitbutton" type="button" onclick="submitForm()">Submit</button>
+  
+        </form>
+        </div>
+
+        <script src="script.js"></script>
+        
+    </body>
+</html>
