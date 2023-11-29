@@ -31,7 +31,7 @@ h1{
   margin-top: 10%; 
 }
 
-.container img {
+.mainpage-image {
   display: block;
   max-width: 30%; 
   height: auto; 
@@ -135,7 +135,7 @@ h2 {
 
 }
 
-.loginimage {
+.login-image {
   display: block;
   margin: 3% auto;
   max-width: 100%; 
@@ -277,7 +277,7 @@ color: #696969
   }
 
   .modal-content {
-    width: 400px; 
+    width: 300px; 
   }
 
   p {
@@ -289,7 +289,7 @@ color: #696969
   .icons {
     display: none; 
   }
-  .loginimage {
+  .login-image {
     margin: 1% auto;
     width: 100px; 
 }
