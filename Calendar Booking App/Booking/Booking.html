@@ -4,10 +4,10 @@
             <meta charset = “UTF-8”>
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title> Login</title>
-            <link rel="stylesheet" type="text/css" href="stye.css">
+            <link rel="stylesheet" type="text/css" href="bookingstyle.css">
             <script src="script.js"></script>
 
-            <link rel="stylesheet" type="text/css" href="stye.css">
+            <link rel="stylesheet" type="text/css" href="bookingstyle.css">
             <link rel="stylesheet"
             href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
             <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -40,6 +40,7 @@
         <form action="/create" method="post">
             <div id="outputName"></div>
             <div id="outputEmail"></div>
+            <p>Position: <span id="displaySelectedPosition"></span></p>
             <label for="interviewtype">Interview Stage:</label>
             <select name="interviewtype" id="interviewtype">
                 <option value="1st Interview">1st Interview</option>
@@ -47,28 +48,19 @@
                 <option value="Final Interview">Final Interview</option>
             </select>
             <label for="interviewdate">Date:</label>
-            <input type="datetime-local" id="interviewdate" name="interviewdate" required value="${new Date().toISOString().slice(0, 16)}">
+            <input type="date" id="interviewdate" name="interviewdate" required value="${new Date().toISOString().slice(0, 10)}">
+            
             <br>
-            <button type="button" class="btn-medium" onclick="prepareAndRedirect()">Create</button>
+
+            <div id="displayEvenDays"></div>
+            <div id="displayOddDays"></div>
+
+            <button id="extractButton"onclick="prepareAndRedirect()">Create</button>
         </form>
     </div>
-
+    
     <script src="booking.js"></script>
-    <script>
-        function prepareAndRedirect() {
-          const name = document.getElementById('outputName').innerText;
-          const email = document.getElementById('outputEmail').innerText;
-          const interviewType = document.getElementById('interviewtype').value;
-          const interviewDate = document.getElementById('interviewdate').value;
-      
-          localStorage.setItem('name', name);
-          localStorage.setItem('email', email);
-          localStorage.setItem('interviewType', interviewType);
-          localStorage.setItem('interviewDate', interviewDate);
-      
-          window.location.href='../Thank You/ThankYou.html';
-        }
-      </script>
+  
     </body>
     
     </html>

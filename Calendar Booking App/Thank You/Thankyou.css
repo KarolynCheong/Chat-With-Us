@@ -63,18 +63,16 @@ body {
     
 }  
 #bookingDetails {
-      display: block;
-      border: 1px solid antiquewhite;
-      padding: 20px;
-      border-radius: 5px;
-      width: 600px; 
-      height: 700px;
-      margin: 200px auto;
-      font-family: "Poppins", sans-serif;
-      color: antiquewhite;
-      text-align: left;
-      display: block;
-  }
+   border: 1px solid antiquewhite;
+   padding: 20px;
+   border-radius: 5px;
+   width: 400px; 
+   height: 700px; 
+   margin: 100px auto;
+   font-family: "Poppins", sans-serif;
+   color: antiquewhite;
+   text-align: left;
+}
 
   img {
     max-width: 100%;
@@ -83,25 +81,77 @@ body {
   }
 
 h2 {
-    font-size: 18px;
-    margin-top: 50px;
+    font-size: 16px;
+    margin-top: 65px;
+    margin-bottom: -2%;
     font-family: "Poppins", sans-serif;
     text-decoration: underline;
 }
 
+p {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
 .name {
-    margin-top: 5px;
-    font-weight: lighter;
-}
-
-.interview-type-label,
-.interview-date-label {
+    color: antiquewhite;
     margin-right: 5px;
+    font-size: 15px;
     font-weight: lighter;
-}
-
-
-    
+  }
   
+.email {
+    color: antiquewhite;
+    margin-right: 5px;
+    margin-top: -3%;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  
+.position {
+    color: antiquewhite;
+    margin-right: 5px;
+    margin-top: -3%;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  
+.interviewType {
+    color: antiquewhite;
+    margin-right: 5px;
+    margin-top: 8%;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  
+.interviewDate {
+    color: antiquewhite;
+    margin-right: 5px;
+    margin-top: -3%;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  
+.selectedTime {
+    color: antiquewhite;
+    margin-right: 5px;
+    margin-top: -3%;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  
+@media (max-width: 768px) {
+    .icons {
+      display: none; 
+    }
+  }
+
+  @media (max-width: 480px) {
+    #bookingDetails {
+      width: 20%; 
+      margin: 3px auto; 
+      padding: 10px; 
+    }
+  }
 
 

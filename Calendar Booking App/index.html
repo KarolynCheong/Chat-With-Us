@@ -5,7 +5,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title> Chat With Us</title>
 
-            <link rel="stylesheet" type="text/css" href="stye.css">
+            <link rel="stylesheet" type="text/css" href="style.css">
             <link rel="stylesheet"
             href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
             <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
@@ -51,27 +51,40 @@
              class="close" title="Close Modal">&times;</span>
             <h2>Welcome to chat with us</h2>
     
-            <img src="images/Login page image.png"alt="Loginimage">
+        <img src="images/Login page image.png"alt="Loginimage">
     
 
-            <div class="Name">
-              <label for="name"><b>Name</b></label>
-            </div>
-
-            <input type="text" placeholder="Enter your name" name="name" required class="resize-input" id="nameInput">
-
-            <div class="Email">
-              <label for="email"><b>Email Address</b></label>
-            </div>
-            
-            <input type="email" placeholder="Enter your email" name="email" required class="resize-input" id="emailInput">
-
-             <div id="outputName" style="display: none;"></div>
-             <div id="outputEmail" style="display: none;"></div>
-
-             <button class="submitbutton" type="button" onclick="submitForm()">Submit</button>
+        <div class="Name">
+                <label for="name"><b>Name</b></label>
+              </div>
   
-        </form>
+              <input type="text" placeholder="Enter your name" name="name" required class="resize-input" id="nameInput">
+  
+              <div class="Email">
+                <label for="email"><b>Email Address</b></label>
+              </div>
+              
+              <input type="email" placeholder="Enter your email" name="email" required class="resize-input" id="emailInput">
+  
+              <div class ="Position">
+              <label for="Position">Position:</label>
+              </div>
+              
+              <select name="Position" id="Position">
+                <option value="" disabled selected>Select the position applied</option>
+                <option value="Communications">Communications</option>
+                <option value="Corporate HR">Corporate HR</option>
+                <option value="Data Policy">Data Policy</option>
+                <option value="Infrastructure">Infrastructure</option>
+                <option value="Products">Products</option>
+                <option value="Talent Capability Development">Talent Capability Development</option>
+            </select>
+  
+               <div id="outputName" style="display: none;"></div>
+               <div id="outputEmail" style="display: none;"></div>
+  
+               <button class="submitbutton" type="button" onclick="submitForm()">Submit</button>
+    
         </div>
 
         <script src="script.js"></script>
