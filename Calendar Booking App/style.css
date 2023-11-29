@@ -123,7 +123,7 @@ button:hover {
   margin: 5px auto;
   border: transparent;
   border-radius: 10px;
-  width: 60vw; 
+  width: 30vw; 
   height: 80vh;
 }
 
@@ -265,7 +265,7 @@ color: #696969
 
   h1 {
     font-size: 30px; 
-    margin-top: 40%; 
+    margin-top: 80%; 
   }
 
   h2 {
