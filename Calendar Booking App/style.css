@@ -107,7 +107,6 @@ button:hover {
 .modal {
   display: none; 
   position: fixed; 
-  justify-content: center;
   z-index: 1000;
   left: 0;
   top: 0;
@@ -225,9 +224,9 @@ color: #696969
 
 
 .animate {
-  /* margin-left: 35%; */
-  display: flex;
-
+  margin-left: 35%;
+  display: block;
+  
   -webkit-animation: animatezoom 0.6s;
   animation: animatezoom 0.6s
 }
